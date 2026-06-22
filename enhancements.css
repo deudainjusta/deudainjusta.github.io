@@ -9,3 +9,57 @@
 @media(max-width:1050px){.topbar nav{gap:16px;font-size:13px}.history-panel{grid-template-columns:1fr}}
 @media(max-width:900px){.concentration-callout{grid-template-columns:1fr}.concentration-callout small{grid-column:auto}}
 @media(max-width:560px){.concentration-callout{padding:18px}.concentration-side strong{font-size:42px}.cancellation-panel .chart{height:260px}}
+.typology-panel,.pareto-panel,.simulator-panel{margin-top:36px}.typology-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(240px,.55fr);gap:28px;align-items:start}.typology-summary{display:grid;grid-template-columns:1fr 1fr;gap:12px}.typology-summary article,.simulator-results article{padding:18px;background:#f3f7f4;border:1px solid var(--line);border-radius:8px}.typology-summary span,.simulator-results span{display:block;color:var(--muted);font-size:12px}.typology-summary strong,.simulator-results strong{display:block;margin-top:6px;font-size:28px;letter-spacing:-.04em}.pareto-panel .chart{height:420px}.simulator-panel{display:grid;grid-template-columns:1fr 1fr;gap:36px;max-width:1180px;margin-left:auto;margin-right:auto}.simulator-controls{display:grid;gap:17px;margin-top:24px}.simulator-controls label{font-size:13px;font-weight:700}.simulator-controls output{float:right;color:var(--green);font-variant-numeric:tabular-nums}.simulator-controls input{display:block;width:100%;margin-top:8px;accent-color:var(--green2)}.simulator-results{display:grid;grid-template-columns:1fr 1fr;gap:12px}.simulator-results .accent-result{background:var(--ink);color:#fff}.simulator-results .accent-result span{color:#d7e0dc}.simulator-results .accent-result strong{color:var(--lime)}
+@media(max-width:900px){.typology-grid,.simulator-panel{grid-template-columns:1fr}.typology-summary{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:650px){.typology-summary,.simulator-results{grid-template-columns:1fr 1fr}.typology-panel .chart{height:420px}.typology-summary strong,.simulator-results strong{font-size:24px}}
+
+/* Integraciones 2026: cohortes, distribución y fiscalización de cobranza */
+.topbar nav{gap:18px;font-size:13px}
+.freshness-grid{grid-template-columns:repeat(4,1fr)}
+.cohort-evidence{display:grid;gap:12px;margin-top:22px}.cohort-evidence article{padding:17px;background:#f3f7f4;border-left:4px solid var(--green2);border-radius:0 7px 7px 0}.cohort-evidence article:nth-child(2){border-left-color:var(--orange)}.cohort-evidence article:nth-child(3){border-left-color:var(--ink)}.cohort-evidence article.caution{background:#fff8e8;border-left-color:#d8b46b}.cohort-evidence span{display:block;margin-bottom:5px;color:var(--green);font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.cohort-evidence b{font-size:14px;line-height:1.35}.cohort-evidence p{margin:6px 0 0;color:var(--muted);font-size:12px}.cohort-reading{margin-top:16px;padding:16px;background:var(--ink);color:#fff;border-radius:8px}.cohort-reading b{color:var(--lime);font-size:11px;text-transform:uppercase;letter-spacing:.07em}.cohort-reading p{margin:7px 0 0;color:#d8e1dc;font-size:13px}
+.distribution-panel{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(320px,.65fr);gap:30px;margin-top:36px}.distribution-panel .chart{height:300px}.critique-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-content:start}.critique-grid article{padding:18px;background:#f3f7f4;border:1px solid var(--line);border-radius:8px}.critique-grid article.wide{grid-column:1/-1}.critique-grid article.political{background:var(--ink);color:#fff}.critique-grid span{display:block;color:var(--green);font-size:10px;font-weight:800;letter-spacing:.07em;text-transform:uppercase}.critique-grid .political span{color:var(--lime)}.critique-grid b{display:block;margin-top:5px;font-size:32px;letter-spacing:-.04em}.critique-grid p{margin:6px 0 0;color:var(--muted);font-size:13px}.critique-grid .political p{color:#d8e1dc}
+.collection-section{background:#dfe9e2}.collection-warning{margin:0 0 28px;padding:18px 22px;background:#fff4e9;border-left:5px solid var(--orange)}.collection-warning p{margin:5px 0 0;color:var(--muted)}.collection-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(320px,.75fr);gap:28px}.timeline{position:relative;margin-top:24px}.timeline:before{content:"";position:absolute;left:53px;top:8px;bottom:8px;width:1px;background:var(--line)}.timeline article{display:grid;grid-template-columns:76px 1fr;gap:18px;position:relative;padding-bottom:24px}.timeline article:last-child{padding-bottom:0}.timeline time{position:relative;z-index:1;align-self:start;padding:5px 7px;background:var(--green);color:#fff;border-radius:5px;text-align:center;font-size:11px;font-weight:800;text-transform:uppercase}.timeline article>div{padding-bottom:20px;border-bottom:1px solid var(--line)}.timeline article:last-child>div{padding-bottom:0;border-bottom:0}.timeline span{color:var(--green2);font-size:10px;font-weight:800;letter-spacing:.07em;text-transform:uppercase}.timeline h4{margin:4px 0 5px;font-size:16px}.timeline p{margin:0;color:var(--muted);font-size:13px}.timeline a{display:inline-block;margin-top:7px;color:var(--green);font-size:12px;font-weight:700}.oversight-panel ol{margin:22px 0;padding-left:21px}.oversight-panel li{margin-bottom:13px;color:#33443e;font-size:14px}.secondary-button{display:inline-block;background:var(--ink);color:#fff}.collection-interpretation{margin-top:28px}
+@media(max-width:900px){.freshness-grid{grid-template-columns:1fr 1fr}.distribution-panel,.collection-grid{grid-template-columns:1fr}}
+@media(max-width:560px){.freshness-grid{grid-template-columns:1fr}.critique-grid{grid-template-columns:1fr}.critique-grid article.wide{grid-column:auto}.timeline:before{left:38px}.timeline article{grid-template-columns:58px 1fr;gap:12px}.timeline time{font-size:9px;padding:5px 4px}.distribution-panel .chart{height:260px}}
+.collection-section .metric-strip strong{font-size:clamp(27px,2.4vw,34px);white-space:nowrap}
+
+.cohort-figures{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:20px 0}
+.cohort-figures figure{margin:0;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff}
+.cohort-figures a{display:block;background:#fff}
+.cohort-figures img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center 28%}
+.cohort-figures figcaption{padding:14px 16px;font-size:.9rem;line-height:1.5;color:var(--muted)}
+.cohort-figures figcaption b{display:block;color:var(--ink);margin-bottom:4px}
+
+.financing-panel{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,.75fr);gap:24px;align-items:start}
+.financing-panel>.viz-source{grid-column:1/-1}
+.movement-position,.structural-solution,.fiscal-priority-note{background:var(--ink);color:#fff;border-radius:18px;padding:24px}
+.movement-position span,.structural-solution>span{color:var(--lime);font-size:.76rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.movement-position h4,.structural-solution h3{color:#fff;font-size:1.35rem;margin:8px 0 12px}
+.movement-position p,.structural-solution>p{color:#dbe5e0;line-height:1.58;margin:0}
+
+.pressure-panel{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr);gap:24px;align-items:center}
+.jurisprudence-summary{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0 20px}
+.jurisprudence-summary article{border:1px solid var(--line);border-radius:14px;padding:14px;background:#fff}
+.jurisprudence-summary span{display:block;color:var(--muted);font-size:.78rem;margin-bottom:6px}
+.jurisprudence-summary strong{font-size:1.45rem}
+.judicial-result{display:inline-block;border-radius:999px;padding:5px 9px;font-size:.72rem;font-weight:800;background:#eef2ef}
+.judicial-acogido{background:#dcefe6;color:#0f5b45}
+.judicial-rechazado,.judicial-rechazados{background:#f7e1d9;color:#8e3518}
+.judicial-inadmisible,.judicial-inadmisibles{background:#eceae5;color:#4d5752}
+.fiscal-priority-note{margin-top:22px;background:#263b33}
+.fiscal-priority-note b{color:var(--lime);font-size:.78rem;letter-spacing:.07em;text-transform:uppercase}
+.fiscal-priority-note p{max-width:900px;color:#e0e8e4;line-height:1.55}
+.fiscal-priority-note a{color:#fff;font-weight:750}
+.structural-solution{margin-top:22px}
+.solution-path{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+.solution-path article{border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:16px;background:rgba(255,255,255,.05)}
+.solution-path b{color:var(--lime)}
+.solution-path p{color:#e0e8e4;font-size:.9rem;line-height:1.45;margin:8px 0 0}
+
+@media(max-width:820px){
+  .cohort-figures,.financing-panel,.pressure-panel{grid-template-columns:1fr}
+  .jurisprudence-summary,.solution-path{grid-template-columns:1fr 1fr}
+}
+@media(max-width:520px){
+  .jurisprudence-summary,.solution-path{grid-template-columns:1fr}
+}

@@ -1,0 +1,28 @@
+{
+  "corte": "11 de junio de 2026",
+  "alcance": "Comunicaciones públicas de Tesorería General de la República; no corresponde a una base administrativa de expedientes.",
+  "comparabilidad": "Las cifras TGR 2026 describen acreencias fiscales, convenios y acciones de cobro. No son directamente comparables con el stock nacional de personas y saldos CAE a diciembre de 2023 ni con los cuadros de pago de junio de 2025.",
+  "kpis": [
+    {"id":"personas_mora","etiqueta":"Personas con deuda CAE en mora","valor_min":550000,"formato":"personas_mas_de","fecha":"8 de junio de 2026","alcance":"Cifra comunicada por TGR; no se publica un padrón agregado descargable."},
+    {"id":"acreencia_fiscal","etiqueta":"Deuda a favor del Fisco","valor_min":4000000000000,"formato":"clp_mas_de","fecha":"8 de junio de 2026","alcance":"Acreencia que TGR atribuye a garantías pagadas; no equivale al saldo bruto CAE 2023."},
+    {"id":"convenios","etiqueta":"Personas con convenio durante 2026","valor_min":32000,"formato":"personas_mas_de","fecha":"8 de junio de 2026","alcance":"Convenios suscritos; no equivale necesariamente a deuda extinguida."},
+    {"id":"embargos","etiqueta":"Personas embargadas","valor_min":1500,"formato":"personas_mas_de","fecha":"8 de junio de 2026","alcance":"Personas, no medidas individuales ni bienes: un expediente puede involucrar más de una actuación."}
+  ],
+  "hitos": [
+    {"fecha":"2026-04-06","titulo":"Inicio del proceso segmentado de cobro","detalle":"TGR informó acciones judiciales directas para rentas brutas mensuales sobre $5 millones y convenios para ingresos inferiores a ese umbral.","estado":"Publicado por TGR","url":"https://www.tgr.cl/2026/04/06/tgr-inicia-proceso-de-cobro-a-deudores-cae-y-refuerza-alternativas-para-regularizar-su-situacion/noticias/"},
+    {"fecha":"2026-04-15","titulo":"Campaña informativa y primera desagregación territorial","detalle":"TGR reportó más de 550 mil personas, más de 70 mil deudas de hasta $1 millón y conteos regionales de cartera; no publicó embargos por región.","estado":"Publicado por TGR","url":"https://www.tgr.cl/2026/04/15/tgr-refuerza-proceso-informativo-para-regularizar-deudas-cae/noticias/"},
+    {"fecha":"2026-04-23","titulo":"Inicio de embargos y retenciones","detalle":"La etapa inicial se concentró en 1.340 casos de mayores ingresos e incluyó cuentas bancarias, inversiones, bienes raíces, vehículos y otros activos.","estado":"Publicado por TGR","url":"https://tgr.cl/2026/04/23/tgr-inicia-embargos-y-retenciones-a-deudores-cae-con-ingresos-sobre-5-millones/noticias/"},
+    {"fecha":"2026-05-05","titulo":"Convenios diferenciados por renta","detalle":"TGR estableció cuotas de hasta 10% de la renta y condiciones de pie diferenciadas para tramos de hasta $1 millón, $1–2 millones y $2–5 millones.","estado":"Publicado por TGR","url":"https://www.tgr.cl/2026/05/05/tgr-flexibiliza-convenios-para-deudas-cae-y-amplia-facilidades-para-ponerse-al-dia/noticias/"},
+    {"fecha":"2026-06-05","titulo":"Más de 18.700 regularizaciones informadas","detalle":"TGR reportó personas que habrían normalizado su situación mediante la plataforma y oficinas, sin publicar su distribución por tramo de renta o territorio.","estado":"Publicado por TGR","url":"https://www.tgr.cl/2026/06/05/tgr-promueve-regularizar-deudas-cae-con-nuevas-facilidades-de-pago/noticias/"},
+    {"fecha":"2026-06-08","titulo":"Más de 1.500 personas embargadas","detalle":"TGR informó más de 32 mil convenios y señaló que la mayoría de los embargos ejecutados recaía en rentas iguales o superiores a $3,5 millones según el Año Tributario 2025.","estado":"Publicado por TGR","url":"https://www.tgr.cl/2026/06/08/tgr-ejerce-sus-facultades-para-recuperar-mas-de-4-billones-del-cae/noticias/"},
+    {"fecha":"2026-06-11","titulo":"Fallos de la Corte de Valparaíso","detalle":"TGR informó el rechazo de cuatro recursos de protección y citó más de 450 recursos declarados inadmisibles por la Corte Suprema. La comunicación institucional no sustituye la lectura de cada sentencia.","estado":"Publicado por TGR","url":"https://www.tgr.cl/2026/06/11/nuevo-reves-para-deudores-cae-corte-de-valparaiso-ratifica-legalidad-de-embargos-de-tgr/noticias/"}
+  ],
+  "preguntas_fiscalizacion": [
+    "¿Cuántas medidas corresponden a cuentas bancarias, remuneraciones, inversiones, vehículos y bienes raíces?",
+    "¿Cuántas personas y expedientes existen por región, tramo de renta y monto de deuda?",
+    "¿Qué montos fueron retenidos, recuperados, devueltos o permanecen controvertidos?",
+    "¿Cómo cambió el criterio operativo desde el umbral inicial de $5 millones hasta la referencia posterior de $3,5 millones?",
+    "¿Cuántos casos acreditaron cesantía o variaciones de ingreso posteriores al Año Tributario 2025?",
+    "¿Qué resultados tuvieron las reclamaciones, excepciones y solicitudes de alzamiento distintas del recurso de protección?"
+  ]
+}

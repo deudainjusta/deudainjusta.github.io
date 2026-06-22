@@ -1,0 +1,73 @@
+{
+  "corte": "22 de junio de 2026",
+  "alcance": "Selección documental de comunicados oficiales del Poder Judicial y TGR. No equivale al universo total de causas ingresadas.",
+  "casos": [
+    {
+      "tribunal": "Corte de Apelaciones de Punta Arenas",
+      "fecha": "2026-04-16",
+      "roles": "169-2016, 172-2016 y 174-2026 (transcripción publicada por PJUD)",
+      "cantidad": 3,
+      "resultado": "Inadmisibles",
+      "fundamento": "El perjuicio debía alegarse en el procedimiento administrativo; protección no considerada vía idónea.",
+      "fuente_tipo": "Poder Judicial",
+      "url": "https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/144160"
+    },
+    {
+      "tribunal": "Corte de Apelaciones de Valdivia",
+      "fecha": "2026-04-22",
+      "roles": "429-2026",
+      "cantidad": 1,
+      "resultado": "Inadmisible",
+      "fundamento": "Existía expediente administrativo en tramitación; protección no considerada vía idónea.",
+      "fuente_tipo": "Poder Judicial",
+      "url": "https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/144365"
+    },
+    {
+      "tribunal": "Corte de Apelaciones de Arica",
+      "fecha": "2026-06-08",
+      "roles": "300-2026",
+      "cantidad": 1,
+      "resultado": "Rechazado",
+      "fundamento": "TGR informó que se validó el procedimiento de cobro coactivo; falta incorporar copia independiente del fallo al corpus local.",
+      "fuente_tipo": "TGR",
+      "url": "https://www.tgr.cl/2026/06/08/tgr-ejerce-sus-facultades-para-recuperar-mas-de-4-billones-del-cae/noticias/"
+    },
+    {
+      "tribunal": "Corte de Apelaciones de Valparaíso, Tercera Sala",
+      "fecha": "2026-06-11",
+      "roles": "3.809-2026",
+      "cantidad": 1,
+      "resultado": "Acogido",
+      "fundamento": "El crédito CAE fue considerado de naturaleza especial; su cobro mediante normativa tributaria restringía la defensa y lesionaba la igualdad ante la ley.",
+      "fuente_tipo": "Poder Judicial",
+      "url": "https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/145909"
+    },
+    {
+      "tribunal": "Corte de Apelaciones de Valparaíso, Cuarta Sala",
+      "fecha": "2026-06-11",
+      "roles": "3.337-2026, 3.349-2026 y 3.879-2026",
+      "cantidad": 3,
+      "resultado": "Rechazados",
+      "fundamento": "La naturaleza del crédito y el procedimiento aplicable excedían el ámbito cautelar del recurso de protección.",
+      "fuente_tipo": "Poder Judicial",
+      "url": "https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/145909"
+    },
+    {
+      "tribunal": "Corte de Apelaciones de Valparaíso, Quinta Sala",
+      "fecha": "2026-06-11",
+      "roles": "3.249-2026",
+      "cantidad": 1,
+      "resultado": "Rechazado",
+      "fundamento": "La sala estimó que la Ley 20.027 y el DL 1.263 facultaban a TGR para iniciar el cobro.",
+      "fuente_tipo": "Poder Judicial",
+      "url": "https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/145909"
+    }
+  ],
+  "comunicacion_agregada": {
+    "inadmisibles_min": 450,
+    "denominador_total": null,
+    "porcentaje_admisibilidad": null,
+    "fuente": "TGR, 8 y 11 de junio de 2026",
+    "advertencia": "Sin el total de recursos ingresados y su estado procesal no puede calcularse una tasa de admisibilidad. Además, inadmisibilidad no equivale a una decisión sobre el fondo."
+  }
+}

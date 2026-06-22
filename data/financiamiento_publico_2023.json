@@ -1,0 +1,43 @@
+{
+  "corte": "2023",
+  "unidad": "millones de pesos nominales de 2023",
+  "comparabilidad": "El pago CAE corresponde al flujo anual publicado de recompras más recarga, expresado en pesos de diciembre de 2023. La gratuidad corresponde al presupuesto autorizado por la Ley de Presupuestos 2023. Se muestran juntos para dimensionar prioridades, pero no constituyen dos ejecuciones contables equivalentes.",
+  "componentes": [
+    {
+      "id": "cae_banca",
+      "etiqueta": "Pago CAE: recompra y recarga",
+      "monto_mm_clp": 449788,
+      "naturaleza": "Flujo pagado publicado",
+      "fuente": "Fundación SOL, CAE 2024, Cuadro 3, p. 24",
+      "url": "https://fundacionsol.cl/cl_luzit_herramientas/static/adjuntos/7512/CAE2024_rev.pdf"
+    },
+    {
+      "id": "gratuidad_universidades",
+      "etiqueta": "Gratuidad: universidades",
+      "monto_mm_clp": 1109745.425,
+      "naturaleza": "Presupuesto autorizado",
+      "fuente": "Ley de Presupuestos 2023, Partida 09, Capítulo 90, Programa 03, asignación 198",
+      "url": "https://www.dipres.gob.cl/597/articles-299172_doc_pdf.pdf"
+    },
+    {
+      "id": "gratuidad_ip_cft",
+      "etiqueta": "Gratuidad: IP y CFT",
+      "monto_mm_clp": 518587.974,
+      "naturaleza": "Presupuesto autorizado",
+      "fuente": "Ley de Presupuestos 2023, Partida 09, Capítulo 90, Programa 03, asignación 199",
+      "url": "https://www.dipres.gob.cl/597/articles-299172_doc_pdf.pdf"
+    }
+  ],
+  "totales": {
+    "cae_banca_mm_clp": 449788,
+    "gratuidad_mm_clp": 1628333.399,
+    "razon_cae_sobre_gratuidad": 0.276228
+  },
+  "posicion_movimiento": "La condonación debe acompañarse de una transformación del financiamiento: gratuidad universal y financiamiento público estable de la oferta educativa, en lugar de reproducir deuda individual y rentas financieras.",
+  "contexto_tributario_2026": {
+    "dato": "El Ejecutivo propuso reducir gradualmente el Impuesto de Primera Categoría del 27% al 23% entre 2026 y 2029 y reintegrar el sistema tributario.",
+    "alcance": "Es una propuesta legislativa distinta del proceso de cobro CAE. Su simultaneidad permite discutir prioridades distributivas, pero no demuestra que los embargos financien esa rebaja.",
+    "fuente": "Gobierno de Chile, Plan de Reconstrucción Nacional, 17 de abril de 2026",
+    "url": "https://www.gob.cl/noticias/principales-medidas-plan-reconstruccion-nacional-detalles/"
+  }
+}
