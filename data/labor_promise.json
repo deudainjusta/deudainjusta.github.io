@@ -1,0 +1,40 @@
+{
+  "fne_vpn": [
+    { "anio": 2012, "matriculados_pct": 0.21, "programas_pct": 0.175 },
+    { "anio": 2013, "matriculados_pct": 0.21, "programas_pct": 0.185 },
+    { "anio": 2014, "matriculados_pct": 0.22, "programas_pct": 0.195 },
+    { "anio": 2015, "matriculados_pct": 0.25, "programas_pct": 0.205 },
+    { "anio": 2016, "matriculados_pct": 0.255, "programas_pct": 0.21 },
+    { "anio": 2017, "matriculados_pct": 0.28, "programas_pct": 0.25 },
+    { "anio": 2018, "matriculados_pct": 0.27, "programas_pct": 0.255 },
+    { "anio": 2019, "matriculados_pct": 0.315, "programas_pct": 0.292 },
+    { "anio": 2020, "matriculados_pct": 0.335, "programas_pct": 0.313 },
+    { "anio": 2021, "matriculados_pct": 0.34, "programas_pct": 0.323 },
+    { "anio": 2022, "matriculados_pct": 0.38, "programas_pct": 0.368 },
+    { "anio": 2023, "matriculados_pct": 0.395, "programas_pct": 0.358 }
+  ],
+  "cep_incidence": [
+    { "anio": 2006, "tecnica_pct": 0.34, "universitaria_pct": 0.225 },
+    { "anio": 2009, "tecnica_pct": 0.28, "universitaria_pct": 0.215 },
+    { "anio": 2011, "tecnica_pct": 0.34, "universitaria_pct": 0.22 },
+    { "anio": 2013, "tecnica_pct": 0.32, "universitaria_pct": 0.235 },
+    { "anio": 2015, "tecnica_pct": 0.315, "universitaria_pct": 0.23 },
+    { "anio": 2017, "tecnica_pct": 0.37, "universitaria_pct": 0.305 },
+    { "anio": 2022, "tecnica_pct": 0.375, "universitaria_pct": 0.28 },
+    { "anio": 2024, "tecnica_pct": 0.39, "universitaria_pct": 0.28 }
+  ],
+  "cep_penalty_2024": [
+    { "nivel": "Superior tecnica", "penalizacion_pct": 0.19 },
+    { "nivel": "Universitaria", "penalizacion_pct": 0.49 }
+  ],
+  "ene_2026": {
+    "sobrecalificacion_pct": 0.34,
+    "universo": "Ocupados con educacion superior CINE 4-6",
+    "trimestre": "marzo-abril-mayo 2026"
+  },
+  "sources": {
+    "fne": "Fiscalia Nacional Economica (2026), Estudio de mercado sobre educacion superior, Figura 94. Valores aproximados por lectura visual de la serie publicada.",
+    "cep": "Gamarra, Quijada, Undurraga y Vicuna (2026), Educacion superior y subempleo en Chile, Figuras 3 y 5. Valores aproximados desde CASEN 2006-2024.",
+    "ene": "INE, Encuesta Nacional de Empleo, trimestre marzo-abril-mayo 2026. Calculo propio con variables de inadecuacion educativa; no se encontro serie ENE 2012-2023 comparable en la carpeta."
+  }
+}

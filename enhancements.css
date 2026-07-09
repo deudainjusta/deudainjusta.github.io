@@ -15,7 +15,7 @@
 
 /* Integraciones 2026: cohortes, distribución y fiscalización de cobranza */
 .topbar nav{gap:18px;font-size:13px}
-.freshness-grid{grid-template-columns:repeat(4,1fr)}
+.freshness-grid{grid-template-columns:repeat(5,1fr)}
 .cohort-evidence{display:grid;gap:12px;margin-top:22px}.cohort-evidence article{padding:17px;background:#f3f7f4;border-left:4px solid var(--green2);border-radius:0 7px 7px 0}.cohort-evidence article:nth-child(2){border-left-color:var(--orange)}.cohort-evidence article:nth-child(3){border-left-color:var(--ink)}.cohort-evidence article.caution{background:#fff8e8;border-left-color:#d8b46b}.cohort-evidence span{display:block;margin-bottom:5px;color:var(--green);font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.cohort-evidence b{font-size:14px;line-height:1.35}.cohort-evidence p{margin:6px 0 0;color:var(--muted);font-size:12px}.cohort-reading{margin-top:16px;padding:16px;background:var(--ink);color:#fff;border-radius:8px}.cohort-reading b{color:var(--lime);font-size:11px;text-transform:uppercase;letter-spacing:.07em}.cohort-reading p{margin:7px 0 0;color:#d8e1dc;font-size:13px}
 .distribution-panel{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(320px,.65fr);gap:30px;margin-top:36px}.distribution-panel .chart{height:300px}.critique-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-content:start}.critique-grid article{padding:18px;background:#f3f7f4;border:1px solid var(--line);border-radius:8px}.critique-grid article.wide{grid-column:1/-1}.critique-grid article.political{background:var(--ink);color:#fff}.critique-grid span{display:block;color:var(--green);font-size:10px;font-weight:800;letter-spacing:.07em;text-transform:uppercase}.critique-grid .political span{color:var(--lime)}.critique-grid b{display:block;margin-top:5px;font-size:32px;letter-spacing:-.04em}.critique-grid p{margin:6px 0 0;color:var(--muted);font-size:13px}.critique-grid .political p{color:#d8e1dc}
 .mobility-panel{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);gap:26px;margin-top:24px;border-left:5px solid var(--orange)}.mobility-panel span{color:var(--green);font-size:.76rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.mobility-panel h3{margin:6px 0 12px}.mobility-panel p{color:#33443e;line-height:1.58}.mobility-panel small{display:block;margin-top:12px;color:var(--muted);font-size:12px;line-height:1.45}.mobility-stats{display:grid;gap:12px;align-content:start}.mobility-stats article{padding:18px;background:#f3f7f4;border:1px solid var(--line);border-radius:12px}.mobility-stats b{display:block;font-size:clamp(26px,3vw,38px);letter-spacing:-.04em;color:var(--ink)}.mobility-stats p{margin:6px 0 0;color:var(--muted);font-size:13px;line-height:1.4}.mobility-panel>.viz-source{grid-column:1/-1}
@@ -26,6 +26,19 @@
 
 .latest-finance-note{margin:-14px 0 28px;padding:16px 18px;background:#f3f7f4;border-left:4px solid var(--green2);border-radius:0 8px 8px 0;color:#33443e;font-size:.92rem;line-height:1.5}
 .latest-finance-note b{color:var(--green)}
+
+.labor-section{background:#fbfaf6}
+.labor-strip{grid-template-columns:repeat(4,1fr)}
+.labor-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.labor-ene-panel{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);gap:26px;margin-top:28px;align-items:center}
+.labor-ene-panel>.viz-source{grid-column:1/-1}
+.labor-thesis{background:var(--ink);color:#fff;border-radius:18px;padding:24px}
+.labor-thesis span{display:block;color:var(--lime);font-size:.76rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.labor-thesis h4{margin:8px 0 12px;color:#fff;font-size:1.45rem;line-height:1.1}
+.labor-thesis p{margin:0;color:#dbe5e0;line-height:1.58}
+
+@media(max-width:980px){.labor-strip{grid-template-columns:1fr 1fr}.labor-grid,.labor-ene-panel{grid-template-columns:1fr}}
+@media(max-width:560px){.labor-strip{grid-template-columns:1fr}.labor-thesis{padding:20px}}
 
 .cohort-figures{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:20px 0}
 .cohort-figures figure{margin:0;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff}
