@@ -1,24 +1,24 @@
 {
   "corte": "9 de julio de 2026",
-  "alcance": "Selecci?n documental de comunicados oficiales del Poder Judicial, resoluciones publicadas y notas que reproducen balances de TGR. No equivale al universo total de causas descargado desde PJUD.",
+  "alcance": "Selección documental de comunicados oficiales del Poder Judicial, resoluciones publicadas y notas que reproducen balances de TGR. No equivale al universo total de causas descargado desde PJUD.",
   "casos": [
     {
       "tribunal": "Corte de Apelaciones de Punta Arenas",
       "fecha": "2026-04-16",
-      "roles": "169-2016, 172-2016 y 174-2026 (transcripci?n publicada por PJUD)",
+      "roles": "169-2016, 172-2016 y 174-2026 (transcripción publicada por PJUD)",
       "cantidad": 3,
       "resultado": "Inadmisibles",
-      "fundamento": "El perjuicio deb?a alegarse en el procedimiento administrativo; protecci?n no considerada v?a id?nea.",
+      "fundamento": "El perjuicio debía alegarse en el procedimiento administrativo; protección no considerada vía idónea.",
       "fuente_tipo": "Poder Judicial",
       "url": "https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/144160"
     },
     {
-      "tribunal": "Corte de Apelaciones de Valpara?so, Segunda Sala",
+      "tribunal": "Corte de Apelaciones de Valparaíso, Segunda Sala",
       "fecha": "2026-04-21",
       "roles": "3.090-2026",
       "cantidad": 1,
       "resultado": "Orden de no innovar",
-      "fundamento": "Suspendi? el cobro de deuda CAE por TGR mientras se tramita la protecci?n; no constituye decisi?n final de fondo.",
+      "fundamento": "Suspendió el cobro de deuda CAE por TGR mientras se tramita la protección; no constituye decisión final de fondo.",
       "fuente_tipo": "Poder Judicial",
       "url": "https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/144314"
     },
@@ -28,18 +28,18 @@
       "roles": "429-2026",
       "cantidad": 1,
       "resultado": "Inadmisible",
-      "fundamento": "Exist?a expediente administrativo en tramitaci?n; protecci?n no considerada v?a id?nea.",
+      "fundamento": "Existía expediente administrativo en tramitación; protección no considerada vía idónea.",
       "fuente_tipo": "Poder Judicial",
       "url": "https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/144365"
     },
     {
-      "tribunal": "Corte Suprema / Corte de Apelaciones de Copiap?",
+      "tribunal": "Corte Suprema / Corte de Apelaciones de Copiapó",
       "fecha": "2026-05-08",
-      "roles": "CS 24.371-2026; Protecci?n Copiap? 524-2026",
+      "roles": "CS 24.371-2026; Protección Copiapó 524-2026",
       "cantidad": 1,
       "resultado": "Inadmisible confirmada",
-      "fundamento": "La discusi?n sobre naturaleza jur?dica del cr?dito, tribunal competente y procedimiento aplicable exced?a la acci?n cautelar de protecci?n.",
-      "fuente_tipo": "DOE / resoluci?n judicial",
+      "fundamento": "La discusión sobre naturaleza jurídica del crédito, tribunal competente y procedimiento aplicable excedía la acción cautelar de protección.",
+      "fuente_tipo": "DOE / resolución judicial",
       "url": "https://actualidadjuridica.doe.cl/corte-suprema-confirma-inadmisibilidad-por-cobro-cae/"
     },
     {
@@ -48,7 +48,7 @@
       "roles": "203-2026",
       "cantidad": 1,
       "resultado": "Acogido",
-      "fundamento": "La cobranza CAE debe someterse a reglas generales; el uso del procedimiento tributario result? m?s restrictivo y vulner? igualdad ante la ley.",
+      "fundamento": "La cobranza CAE debe someterse a reglas generales; el uso del procedimiento tributario resultó más restrictivo y vulneró igualdad ante la ley.",
       "fuente_tipo": "Poder Judicial",
       "url": "https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/145089"
     },
@@ -57,8 +57,8 @@
       "fecha": "2026-05-28",
       "roles": "17.949-2025",
       "cantidad": 1,
-      "resultado": "Prescripci?n acogida",
-      "fundamento": "Acogi? casaci?n y declar? prescrita la acci?n cambiaria de cobro de pagar?s CAE contra Banco Ita?-Corpbanca; antecedente CAE relacionado, no recurso contra embargo TGR.",
+      "resultado": "Prescripción acogida",
+      "fundamento": "Acogió casación y declaró prescrita la acción cambiaria de cobro de pagarés CAE contra Banco Itaú-Corpbanca; antecedente CAE relacionado, no recurso contra embargo TGR.",
       "fuente_tipo": "Poder Judicial",
       "url": "https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/145441"
     },
@@ -68,37 +68,37 @@
       "roles": "300-2026",
       "cantidad": 1,
       "resultado": "Rechazado",
-      "fundamento": "TGR inform? que se valid? el procedimiento de cobro coactivo; falta incorporar copia independiente del fallo al corpus local.",
+      "fundamento": "TGR informó que se validó el procedimiento de cobro coactivo; falta incorporar copia independiente del fallo al corpus local.",
       "fuente_tipo": "TGR / prensa",
       "url": "https://www.cnnchile.com/pais/corte-suprema-declara-inadmisibles-mas-de-450-recursos-de-proteccion-por-embargos-de-deudas-del-cae/"
     },
     {
-      "tribunal": "Corte de Apelaciones de Valpara?so, Tercera Sala",
+      "tribunal": "Corte de Apelaciones de Valparaíso, Tercera Sala",
       "fecha": "2026-06-11",
       "roles": "3.809-2026",
       "cantidad": 1,
       "resultado": "Acogido",
-      "fundamento": "El cr?dito CAE fue considerado de naturaleza especial; su cobro mediante normativa tributaria restring?a la defensa y lesionaba la igualdad ante la ley.",
+      "fundamento": "El crédito CAE fue considerado de naturaleza especial; su cobro mediante normativa tributaria restringía la defensa y lesionaba la igualdad ante la ley.",
       "fuente_tipo": "Poder Judicial",
       "url": "https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/145909"
     },
     {
-      "tribunal": "Corte de Apelaciones de Valpara?so, Cuarta Sala",
+      "tribunal": "Corte de Apelaciones de Valparaíso, Cuarta Sala",
       "fecha": "2026-06-11",
       "roles": "3.337-2026, 3.349-2026 y 3.879-2026",
       "cantidad": 3,
       "resultado": "Rechazados",
-      "fundamento": "La naturaleza del cr?dito y el procedimiento aplicable exced?an el ?mbito cautelar del recurso de protecci?n.",
+      "fundamento": "La naturaleza del crédito y el procedimiento aplicable excedían el ámbito cautelar del recurso de protección.",
       "fuente_tipo": "Poder Judicial",
       "url": "https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/145909"
     },
     {
-      "tribunal": "Corte de Apelaciones de Valpara?so, Quinta Sala",
+      "tribunal": "Corte de Apelaciones de Valparaíso, Quinta Sala",
       "fecha": "2026-06-11",
       "roles": "3.249-2026",
       "cantidad": 1,
       "resultado": "Rechazado",
-      "fundamento": "La sala estim? que la Ley 20.027 y el DL 1.263 facultaban a TGR para iniciar el cobro.",
+      "fundamento": "La sala estimó que la Ley 20.027 y el DL 1.263 facultaban a TGR para iniciar el cobro.",
       "fuente_tipo": "Poder Judicial",
       "url": "https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/145909"
     }
@@ -113,16 +113,16 @@
     "cortes_inadmisibles_destacadas": {
       "Santiago": 569,
       "San Miguel": 197,
-      "Concepci?n": 146,
+      "Concepción": 146,
       "Rancagua": 58
     },
     "cortes_admisibles_destacadas": {
       "Talca": 102,
-      "Valpara?so": 99,
+      "Valparaíso": 99,
       "La Serena": 24,
       "Arica": 7
     },
     "fuente": "Balance TGR reproducido por Radio Universidad de Chile (17-05-2026), CNN Chile (09-06-2026) y comunicaciones TGR citadas por prensa.",
-    "advertencia": "El balance agregado proviene de comunicaci?n institucional reproducida por prensa; no entrega n?mina completa de roles ni estado final de cada causa. Inadmisibilidad no equivale a decisi?n sobre el fondo. La prescripci?n de pagar?s CAE es jurisprudencia relacionada, no un recurso contra embargo TGR."
+    "advertencia": "El balance agregado proviene de comunicación institucional reproducida por prensa; no entrega nómina completa de roles ni estado final de cada causa. Inadmisibilidad no equivale a decisión sobre el fondo. La prescripción de pagarés CAE es jurisprudencia relacionada, no un recurso contra embargo TGR."
   }
 }
